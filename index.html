@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>COVID-19 Global Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌍 COVID-19 Global Tracker</h1>
+
+    <div id="global-stats" class="card">
+      <h2>Global Statistics</h2>
+      <p><strong>Cases:</strong> <span id="cases">Loading...</span></p>
+      <p><strong>Deaths:</strong> <span id="deaths">Loading...</span></p>
+      <p><strong>Recovered:</strong> <span id="recovered">Loading...</span></p>
+    </div>
+
+    <div class="card">
+      <h2>Select a Country</h2>
+      <select id="country-select">
+        <option value="">-- Choose a Country --</option>
+      </select>
+      <div id="country-stats"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
